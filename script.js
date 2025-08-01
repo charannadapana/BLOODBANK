@@ -2,7 +2,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    const API_BASE_URL = 'http://localhost:5000/api'; // MAKE SURE THIS IS CORRECT
+   const API_BASE_URL = 'https://bloodbank-h3ic.onrender.com/api';
+ // MAKE SURE THIS IS CORRECT
     const TOAST_TIMEOUT = 3500; // Milliseconds for toast visibility
 
     window.bloodTypes = [];
